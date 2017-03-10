@@ -1,6 +1,6 @@
 {
   "name": "artillery-core",
-  "version": "2.0.0-0",
+  "version": "2.4.1",
   "description": "core load-generating functionality of Artillery",
   "main": "index.js",
   "engines": {
@@ -14,42 +14,46 @@
   },
   "author": "Hassy Veldstra <h@veldstra.org>",
   "contributors": [
-    "Kieran Gorman (https://github.com/kjgorman)"
+    "Kieran Gorman (https://github.com/kjgorman)",
+    "Judson Neer (https://github.com/lordjabez)"
   ],
   "license": "MPL-2.0",
   "dependencies": {
     "JSONPath": "0.11.2",
-    "arrivals": "latest",
+    "arrivals": "2.1.0",
     "async": "1.5.2",
     "cheerio": "0.20.0",
     "debug": "2.2.0",
     "deep-equal": "^1.0.1",
     "esprima": "2.5.0",
     "filtrex": "0.5.4",
-    "hogan.js": "^3.0.2",
     "jsck": "0.2.5",
     "lodash": "4.13.1",
-    "node-uuid": "1.4.7",
+    "nanotimer": "0.3.14",
     "request": "2.72.0",
+    "rolex": "1.0.0",
     "socket.io-client": "1.4.6",
     "stats-lite": "2.0.0",
     "tough-cookie": "2.2.2",
     "traverse": "0.6.6",
+    "uuid": "^3.0.0",
     "ws": "1.0.1"
   },
   "devDependencies": {
     "bcrypt": "^0.8.5",
     "csv-parse": "1.0.1",
     "eslint": "^0.24.0",
+    "express": "4.13.4",
     "good": "6.4.0",
     "good-console": "5.1.0",
     "hapi": "10.4.0",
     "hapi-auth-basic": "4.1.0",
     "istanbul": "^0.3.17",
+    "nock": "^9.0.2",
     "pre-commit": "^1.0.10",
-    "tape": "^4.0.0",
+    "sinon": "1.17.6",
     "socket.io": "1.4.6",
-    "express": "4.13.4"
+    "tape": "^4.0.0"
   },
   "repository": {
     "type": "git",
